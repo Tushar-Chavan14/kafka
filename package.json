@@ -1,0 +1,17 @@
+{
+  "name": "kafka-app",
+  "module": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch ./app.js"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
